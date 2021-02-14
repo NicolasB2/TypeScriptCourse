@@ -1,4 +1,4 @@
-function add(n1: number, n2: number, printResult: boolean, phrase: string){
+function addBasic(n1: number, n2: number, printResult: boolean, phrase: string){
     const result = n1+n2;
     if(printResult){
         console.log(phrase + result)
@@ -7,4 +7,4 @@ function add(n1: number, n2: number, printResult: boolean, phrase: string){
     }
 }
 
-const result = add(5,7.2,true,"result is: ");
+const result = addBasic(5,7.2,true,"result is: ");
