@@ -1,5 +1,6 @@
 enum Role  {ADMIN=0, READ_ONLY=1, WRITE_ONLY=2}; //enum
 
+// const can not be change
 const person = {
     age:20, //number
     name:"nicolas", //string
@@ -16,6 +17,8 @@ for (const hobby in person.hobbies){
 
 person.tuple = [0,'admin']
 
+// let is a variable that can only use inside the statement
+// var is a variable that can use globally 
 let favoritesActivities : string[];
 favoritesActivities = ['sports'];
 

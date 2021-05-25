@@ -1,4 +1,4 @@
-// Simple method example
+// Simple example method 
 function add(n1: number, n2: number, printResult: boolean, phrase: string){
     const result = n1+n2;
     if(printResult){
@@ -36,16 +36,6 @@ function combine(input1: combinable, input2: number | string){
 
 console.log(combine(5,7));
 console.log(combine("Nico","Ale"));
-
-// handle arrow function insede a function
-function addHandle(num1:number, num2:number, cb:(num:number)=>void){
-    var result = num1+num2;
-    cb(result)
-}
-
-addHandle(23,67,(result)=>{
-    console.log(result);
-})
 
 // Throw Error
 function generatedError(message: string, code:number){
