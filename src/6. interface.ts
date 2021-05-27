@@ -1,4 +1,9 @@
-interface Person {
+interface being {
+    height: number;
+    weight: number;
+}
+
+interface Person extends being{
     name: string;
     age: number;
 
@@ -8,6 +13,8 @@ interface Person {
 let user: Person;
 
 user = {
+    height: 1.8,
+    weight: 80,
     name: 'Nico',
     age: 21,
     greet(phrase: string): void{
