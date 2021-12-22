@@ -1,4 +1,4 @@
-# TypeScriptCourse
+# Type Script Course
 
 - tsc -w
 - npm start
